@@ -7,6 +7,8 @@ sudo unzip master.zip
 cd /var/www/html/
 sudo mkdir php-watermark-gallery
 sudo mv /home/ec2-user/php-watermark-gallery-master/* /var/www/html/php-watermark-gallery/
+cd /var/www/html/php-watermark-gallery
+sudo mkdir images
 sudo vi /etc/fstab
 
 Insert as new last line!!!!
